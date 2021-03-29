@@ -227,6 +227,125 @@ header .all .right a {
   background-repeat: no-repeat;
   text-align: center;
   padding: 80px 0;
-  margin-top: 60px;
+  margin-top: 80px;
+}
+
+#subscribe i {
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+#subscribe h2 {
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 48px;
+  letter-spacing: 1px;
+}
+
+#subscribe input {
+  padding: 20px 32px;
+  margin-right: 8px;
+  outline: none;
+  height: 55px;
+  font-size: 80%;
+  width: 40%;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+
+#subscribe button {
+  padding: 20px 32px;
+  background-color: #64a19d;
+  font-size: 13px;
+  color: #fff;
+  letter-spacing: 0.15rem;
+  border-radius: 5px;
+  border: 1px solid #64a19d;
+}
+
+#contact {
+  background-color: #000;
+  padding: 100px 0;
+}
+
+#contact .all {
+  display: flex;
+  justify-content: space-between;
+}
+
+#contact .all .box {
+  border: 0;
+  border-bottom: 0.25rem solid #64a19d;
+  padding: 2.5rem 0 2.5rem;
+  border-radius: 0.25rem;
+  background-color: #fff;
+  text-align: center;
+  width: 32%;
+}
+
+#contact .all .box i {
+  color: #64a19d;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+#contact .all .box h4 {
+  font-size: 13px;
+  color: #212529;
+  letter-spacing: 1px;
+}
+
+#contact .all .box hr {
+  margin: 24px auto;
+  background-color: #64a19d;
+  border: 2px solid #64a19d;
+  width: 50px;
+  height: 1px;
+}
+
+#contact .all .box small {
+  font-size: 13px;
+  color: #00000080;
+  font-weight: 500;
+}
+
+#contact .all .box a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #64a19d;
+}
+
+#contact .all .box a:hover {
+  text-decoration: underline;
+}
+
+#social {
+  background-color: #000;
+  padding: 80px 0;
+}
+
+#social .all {
+  display: flex;
+  justify-content: center;
+}
+
+#social .all .box i {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.3);
+  padding: 15px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+footer {
+  background-color: #000;
+  padding: 40px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 13px;
+  color: #ffffff80;
 }
 /*# sourceMappingURL=style.css.map */
